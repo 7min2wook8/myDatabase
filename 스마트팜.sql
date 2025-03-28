@@ -1,9 +1,9 @@
-DROP TABLE   users cascade constraints purge;
-DROP TABLE farm cascade constraints purge   ;
-DROP TABLE crop cascade constraints purge   ;
-DROP TABLE yield cascade constraints purge   ;
-DROP TABLE soildata cascade constraints purge   ;
-DROP TABLE weather cascade constraints purge   ;
+DROP TABLE users cascade constraints purge;
+DROP TABLE farm cascade constraints purge;
+DROP TABLE crop cascade constraints purge;
+DROP TABLE yield cascade constraints purge;
+DROP TABLE soildata cascade constraints purge;
+DROP TABLE weather cascade constraints purge;
 
 CREATE TABLE users (
     user_id VARCHAR2(10) PRIMARY KEY,
